@@ -16,7 +16,17 @@ PeopleSoft utility to look up a user.
 3. Click Select, choose MXM_USRLKUP
 4. Click Copy
 
-### Step 3. Register the component
+### Step 3. Build Project 
+Note: Perform this step if the project contains SQL Tables otherwise skip it
+1.	Click Build, Project...
+2.	Check the following options:  
+    a.	Create Table  
+    b.	Create Indexes  
+    c.	Create Views  
+    d.	Execute and build script.  
+3.	Click Build
+
+### Step 4. Register the component
 1. Open the component
 2. Click Tools, Register Component...
 3. Check off the following:
@@ -27,7 +37,7 @@ PeopleSoft utility to look up a user.
 5. Select Menu Name: MXM_CUSTOM_MENU and Bar Name: USE
 6. Click Next
 7. Select Folder Name: MXM_CUSTOM
-8. Change Content Reference Label and Long Description fields to the title of the page
+8. Change Content Reference Label and Long Description fields to the "Lookup user"
 9. Check off Always use default local node
 10. Click Next
 11. Select Permission List Name: PTPT1200
